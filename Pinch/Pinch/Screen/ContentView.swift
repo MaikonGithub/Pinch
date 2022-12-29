@@ -8,17 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    //MARK: - PROPERTY
+    //MARK: - FUNCTION
+    //MARK: - CONTENT
+    
+    
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        NavigationView {
+            ZStack {
+                
+            }//: END OF ZSTACK
+            
+        }//: END OF NAVIGATIONVIEW
+        .navigationViewStyle(.stack)
     }
 }
 
+//MARK: - PREVIEW
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
